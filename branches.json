@@ -1,0 +1,186 @@
+[
+  {
+    "subchain_name": "אקספרס",
+    "branch_name": "ראול ולנברג",
+    "city": "",
+    "branch_id": "327",
+    "chain_id": "7290027600007",
+    "subchain_id": "7"
+  },
+  {
+    "subchain_name": "אקספרס",
+    "branch_name": "רמב\"ם",
+    "city": "חיפה",
+    "branch_id": "387",
+    "chain_id": "7290027600007",
+    "subchain_id": "7"
+  },
+  {
+    "subchain_name": "אקספרס",
+    "branch_name": "מרגנית",
+    "city": "נשר",
+    "branch_id": "368",
+    "chain_id": "7290027600007",
+    "subchain_id": "7"
+  },
+  {
+    "subchain_name": "דיל",
+    "branch_name": "אדמירליטי",
+    "city": "חיפה",
+    "branch_id": "258",
+    "chain_id": "7290027600007",
+    "subchain_id": "2"
+  },
+  {
+    "subchain_name": "דיל",
+    "branch_name": "קרית אליעזר",
+    "city": "חיפה",
+    "branch_id": "312",
+    "chain_id": "7290027600007",
+    "subchain_id": "2"
+  },
+  {
+    "subchain_name": "דיל",
+    "branch_name": "קניון חיפה",
+    "city": "חיפה",
+    "branch_id": "352",
+    "chain_id": "7290027600007",
+    "subchain_id": "2"
+  },
+  {
+    "subchain_name": "דיל",
+    "branch_name": "גרנד קניןון",
+    "city": "חיפה",
+    "branch_id": "359",
+    "chain_id": "7290027600007",
+    "subchain_id": "2"
+  },
+  {
+    "subchain_name": "דיל אקסטרא",
+    "branch_name": "תל חנן",
+    "city": "נשר",
+    "branch_id": "071",
+    "chain_id": "7290027600007",
+    "subchain_id": "4"
+  },
+  {
+    "subchain_name": "ויקטורי",
+    "branch_name": "צ'ק פוסט",
+    "city": "חיפה",
+    "branch_id": "063",
+    "chain_id": "7290696200003",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "יש",
+    "branch_name": "חניתה",
+    "city": "חיפה",
+    "branch_id": "306",
+    "chain_id": "7290027600007",
+    "subchain_id": "5"
+  },
+  {
+    "subchain_name": "מחסני השוק",
+    "branch_name": "תל חנן",
+    "city": "נשר",
+    "branch_id": "051",
+    "chain_id": "7290661400001",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "מחסני להב",
+    "branch_name": "רמז",
+    "city": "חיפה",
+    "branch_id": "060",
+    "chain_id": "7290058179503",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "מחסני להב",
+    "branch_name": "חיפה",
+    "city": "חיפה",
+    "branch_id": "030",
+    "chain_id": "7290058179503",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "כרמל",
+    "city": "חיפה",
+    "branch_id": "004",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "חורב",
+    "city": "חיפה",
+    "branch_id": "017",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "זיו",
+    "city": "חיפה",
+    "branch_id": "019",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "סטלה",
+    "city": "חיפה",
+    "branch_id": "033",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "דניה",
+    "city": "חיפה",
+    "branch_id": "038",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "ורדיה",
+    "city": "חיפה",
+    "branch_id": "212",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "קלר",
+    "city": "חיפה",
+    "branch_id": "302",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "צרפת",
+    "city": "חיפה",
+    "branch_id": "314",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "נתיב חן",
+    "city": "חיפה",
+    "branch_id": "330",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  },
+  {
+    "subchain_name": "שלי",
+    "branch_name": "רמות ספיר",
+    "city": "חיפה",
+    "branch_id": "336",
+    "chain_id": "7290027600007",
+    "subchain_id": "1"
+  }
+]

@@ -1,0 +1,56 @@
+xpath containing some string:
+
+http://stackoverflow.com/questions/3655549/xpath-containstext-some-string-doesnt-work-when-used-with-node-with-more
+
+You need to change this to
+
+//*[text()[contains(.,'ABC')]]
+
+    * is a selector that matches any element (i.e. tag) -- it returns a node-set.
+    The outer [] are a conditional that operates on each individual node in that node set -- here it operates on each element in the document.
+    text() is a selector that matches all of the text nodes that are children of the context node -- it returns a node set.
+    The inner [] are a conditional that operates on each node in that node set -- here each individual text node. Each individual text node is the starting point for any path in the brackets, and can also be referred to explicitly as . within the brackets. It matches if any of the individual nodes it operates on match the conditions inside the brackets.
+    contains is a function that operates on a string. Here it is passed an individual text node (.). Since it is passed the second text node in the <Comment> tag individually, it will see the 'ABC' string and be able to match it.
+
+another example:
+
+https://doc.scrapy.org/en/latest/topics/selectors.html#topics-selectors-htmlcode
+under: Using selectors with regular expressions
+
+<html>
+ <head>
+  <base href='http://example.com/' />
+  <title>Example website</title>
+ </head>
+ <body>
+  <div id='images'>
+   <a href='image1.html'>Name: My image 1 <br /><img src='image1_thumb.jpg' /></a>
+   <a href='image2.html'>Name: My image 2 <br /><img src='image2_thumb.jpg' /></a>
+   <a href='image3.html'>Name: My image 3 <br /><img src='image3_thumb.jpg' /></a>
+   <a href='image4.html'>Name: My image 4 <br /><img src='image4_thumb.jpg' /></a>
+   <a href='image5.html'>Name: My image 5 <br /><img src='image5_thumb.jpg' /></a>
+  </div>
+ </body>
+</html>
+
+>>> response.xpath('//a[contains(@href, "image")]/text()').re(r'Name:\s*(.*)')
+[u'My image 1',
+ u'My image 2',
+ u'My image 3',
+ u'My image 4',
+ u'My image 5']
+
+
+another example:
+
+http://www.w3schools.com/xml/tryit.asp?filename=try_xpath_select_pricenodes_high
+
+path = "/bookstore/book[author[contains(.,'James')]]/author";
+
+
+I think I've come up with the right query for gz files:
+response.xpath("//a[@href[contains(.,'.gz')]]/@href").extract()
+
+Using files:
+
+https://doc.scrapy.org/en/latest/topics/media-pipeline.html
